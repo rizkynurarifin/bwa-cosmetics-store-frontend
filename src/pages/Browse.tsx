@@ -348,7 +348,7 @@ export default function Browse() {
                         <div className="h-[89px] bg-white px-[30px] shadow-[0px_-4px_30px_0px_#1107260D]">
                             <ul className="flex justify-between">
                                 <li className="flex items-center">
-                                    <a href="">
+                                    <Link to={'/'}>
                                         <div className="flex w-[50px] flex-col items-center gap-1">
                                             <img
                                                 src="/assets/images/icons/browse.svg"
@@ -359,10 +359,10 @@ export default function Browse() {
                                                 Browse
                                             </p>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="flex items-center">
-                                    <a href="view-orders.html">
+                                    <Link to={'/check-booking'}>
                                         <div className="flex w-[50px] flex-col items-center gap-1">
                                             <img
                                                 src="/assets/images/icons/car.svg"
@@ -371,7 +371,7 @@ export default function Browse() {
                                             />
                                             <p className="text-sm leading-[21px]">Orders</p>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
                                     <a href="" className="relative -top-[23px]">
